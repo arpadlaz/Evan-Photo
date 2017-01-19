@@ -1,0 +1,73 @@
+nav.fixednav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    font-family: 'Bungee Inline', cursive;
+    text-align: right;
+    padding-right: 10px;
+    background-color: #222;
+}
+
+nav.fixednav h1:hover {
+    color: #FF432E;
+}
+
+nav.fixednav > h2 > a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav.fixednav > h2 > a:hover {
+    text-decoration: none;
+    color: #FF432E;
+}
+
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+.mainTextBlock {
+    position: fixed;
+    right:0;
+    top: 0;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    margin-top: 150px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+#firstBlock {
+    position: fixed;
+    right:0;
+    top: 0;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    margin-top: 150px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
+
+#secondBlock {
+    position: fixed;
+    right:0;
+    top: 15;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    margin-top: 150px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+}
